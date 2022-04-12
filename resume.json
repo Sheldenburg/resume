@@ -1,121 +1,359 @@
 {
     "basics": {
-        "name": "John Doe",
-        "label": "Programmer",
-        "email": "john@gmail.com",
-        "phone": "(912) 555-4321",
-        "url": "https://johndoe.com",
-        "summary": "A summary of John Doe…",
+        "name": "Sheldon Lin",
+        "label": "Manager in Data&Analytics",
+        "email": "example@hotmail.com",
+        "phone": "04xxxxxxx",
+        "summary": "Sheldon is a tech team lead in data & analytics with various experience in finance, healthcare, retail and engineering. Sheldon has expertise in risk-based pricing optimisation, customer propensity and churn prediction, demand forecast, asset risk and allocation optimisation. Also, some hands-on experience on building deep learning applications including OCR text extractor, melanoma detector, sentiment analysis and root cause analysis via NLP. Sheldon enjoys the discussions with business owners, end users and senior management to work out the most suitable data architecture and solution for them. A good solution can be simple but also powerful and scalable!",
         "location": {
-            "address": "2712 Broadway St",
-            "postalCode": "CA 94115",
-            "city": "San Francisco",
-            "countryCode": "US",
-            "region": "California"
+            "city": "Sydney",
+            "region": "NSW",
+            "countryCode": "Australia"
         },
         "profiles": [
             {
-                "network": "Twitter",
-                "username": "john",
-                "url": "https://twitter.com/john"
-            },
-            {
                 "network": "GitHub",
-                "username": "johnDoe1",
-                "url": "https://github.com"
+                "username": "Sheldenburg",
+                "url": "https://github.com/Sheldenburg"
             },
             {
                 "network": "LinkedIn",
-                "username": "johnDoe1",
-                "url": "https://linkedin.com"
+                "username": "Sheldon",
+                "url": "https://www.linkedin.com/in/sheldon-lin-14b3a237/"
             }
         ]
     },
     "work": [
         {
-            "name": "Company",
-            "position": "President",
-            "location": "California",
-            "url": "https://company.com",
-            "startDate": "2013-01-01",
-            "endDate": "2014-01-01",
-            "summary": "Description…",
+            "name": "Capgemini Invent",
+            "position": "Manager in Data&Analytics",
+            "location": "Sydney, Australia",
+            "url": "https://www.capgemini.com/service/invent/",
+            "startDate": "2021-09-01",
+            "summary": "Technical project lead in data science and data engineering",
             "highlights": [
-                "Started the company"
+                "Leading a team of 5 data scientist and data engineers to deliver data projects for one of Australian big four banks",
+                "Achieve millions dollars cost saving for the client by automating their current tech compliance process",
+                "Demand forecast and prediction model for ServiceNow events",
+                "Visualisation for tech control automation (>4 million records)",
+                "Ongoing support for solutions in data architecture and data warehouse",
+                "Build applications to do tech compliance scanning on enterprise Github repos and Jira (Rest API)",
+                "Provide mentorship for junior data scientists/engineers"
             ]
-        }
-    ],
-    "volunteer": [
+        },
         {
-            "organization": "Organization",
-            "position": "Volunteer",
-            "url": "https://organization.com/",
-            "startDate": "2012-01-01",
-            "endDate": "2013-01-01",
-            "summary": "Summary…",
+            "name": "Toyota Finance Australia",
+            "position": "Data Scientist",
+            "location": "Sydney, Australia",
+            "url": "https://www.toyota.com.au/corporate/toyota-finance-australia",
+            "startDate": "2019-09-01",
+            "endDate":"2021-08-31",
+            "summary": "Data scientist worked cross different business functions",
             "highlights": [
-                "Awarded 'Volunteer of the Month'"
+                "Scope, design, test and maintain machine learning models in various business areas ",
+                "Communicate with stakeholders in a cross-functional environment and translate complex machine learning concepts into business solutions",
+                "Build data pipelines and partner with data engineering/IT for ETL process",
+                "Play a key role in new business initiatives and working groups to tackle ad hoc tasks or new challenges",
+                "Review and troubleshoot any data and script issues and recommend improvement",
+                "Lead projects and provide support to junior members in the team",
+                "Build up strong working knowledge for the organisation on new technology/platforms e.g. Databricks",
+                "Build analytics dashboards in PowerBI"
             ]
+        },
+        {
+            "name": "Freelancing",
+            "position": "Data Scientist/Machine Learning Engineer",
+            "location": "Sydney, Australia",
+            "startDate": "2017-09-01",
+            "endDate":"2019-08-31",
+            "summary": "Freelanced a few machine learning projects",
+            "highlights": [
+                "Computer vision projects in Prostate Cancer Assessment and Melanoma Classification. Achieved higher accuracy score than human physicist on the test set",
+                "NLP sentiment analysis using attention mechanism (Bert) to classify posts in social media that report early signs of natural disasters",
+                "Web scraping",
+                "Algorithmic trading using reinforcement learning libraries (e.g FinRL)",
+                "Building dashboards in Streamlit"
+            ]
+        },
+        {
+            "name": "Integral Group",
+            "position": "Senior Engineer",
+            "location": "Sydney, Australia",
+            "url": "https://www.integralgroup.com/",
+            "startDate": "2017-09-01",
+            "endDate":"2019-08-31",
+            "summary": "Engineering design lead"
+        },
+        {
+            "name": "Beca Group",
+            "position": "Engineer",
+            "location": "New Zealand/Australia",
+            "url": "https://www.beca.com/",
+            "startDate": "2014-01-01",
+            "endDate":"2017-08-31"
         }
     ],
+
     "education": [
         {
-            "institution": "University",
-            "url": "https://institution.com/",
-            "area": "Computer Science",
-            "studyType": "Bachelor of Science",
-            "startDate": "2011-01-01",
-            "endDate": "2013-01-01",
-            "courses": [
-                "DB1101 - Basic SQL"
-            ]
+            "institution": "The University of Auckland",
+            "url": "https://www.auckland.ac.nz/en.html",
+            "area": "Electrical and electronic engineering",
+            "studyType": "Bachelor of Engineering (1st Honour)",
+            "startDate": "2010-01-01",
+            "endDate": "2013-12-01"
         }
     ],
     "awards": [
         {
-            "title": "Award",
-            "date": "2014-11-01",
-            "awarder": "Company",
-            "summary": "There is no spoon."
-        }
-    ],
-    "publications": [
+            "title": "Let's make it happen",
+            "date": "2020-09-01",
+            "awarder": "Toyota Finance Australia",
+            "summary": "Awarded by Toyota Finance for working in a special working group to address declining finance share in the car loan market"
+        },
         {
-            "name": "Publication",
-            "publisher": "Company",
-            "releaseDate": "2014-10-01",
-            "url": "https://publication.com",
-            "summary": "Summary…"
+            "title": "Role model with impact nomination",
+            "date": "2022-03-01",
+            "awarder": "Capgemini"
         }
     ],
+
     "skills": [
         {
-            "name": "Web Development",
+            "name": "Programming",
             "keywords": [
+                "Python",
+                "SQL",
+                "R",
                 "HTML",
                 "CSS",
-                "JavaScript"
+                "Javascript",
+                "Vue",
+                "Django"
+            ]
+        },
+        {
+            "name": "Visualisation",
+            "keywords": [
+                "PowerBI",
+                "Qlik Sense",
+                "Dash",
+                "R Shiny",
+                "Streamlit"
+            ]
+        },
+        {
+            "name": "Cloud&Devops",
+            "keywords": [
+                "Azure",
+                "AWS",
+                "GCP",
+                "Github",
+                "Gitlab",
+                "Databricks"
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "keywords": [
+                "Scikit-learn",
+                "Pytorch",
+                "Tensorflow",
+                "h2o",
+                "Dataiku",
+                "OpenCV",
+                "Prophet",
+                "MLflow"
             ]
         }
     ],
     "references": [
         {
-            "name": "Jane Doe",
-            "reference": "Reference…"
+            "reference": "Available upon request"
         }
     ],
     "projects": [
         {
-            "name": "Project",
-            "highlights": [
-                "Won award at AIHacks 2016"
-            ],
+            "name": "Control Testing Automation",
             "keywords": [
-                "HTML"
+                "REST API",
+                "SQL",
+                "Qlik Sense",
+                "Data Automation",
+                "Predictive Analytics"
             ],
-            "startDate": "2019-01-01",
-            "endDate": "2021-01-01",
-            "url": "https://project.com/"
+            "highlights": [
+              "Automate the highly manual tech assurance process within ANZ Banking Group and build live control monitoring",
+              "Cross platform data integration. Building a data pipeline as part of the automation process",
+              "Demand forecast for ServiceNow Events and predictive analytics",
+              "Build applications and logics in Python to perform tech compliance testing on internal Github repos and Jira records (Rest API)"
+            ],
+            "roles": [
+                "Team Lead"
+            ],
+            "startDate": "2021-09-01"
+        },
+        {
+            "name": "Efficient Frontier",
+            "keywords": [
+                "Python",
+                "Vue.js",
+                "Django",
+                "Portfolio Optimisation",
+                "Dash"
+            ],
+            "highlights": [
+              "Building a personalised portfolio/asset allocation optimisation app",
+              "Implement modern portfolio theory (Efficient frontier), black-litterman allocation, hierarchical risk parity",
+              "MVP the app with full stack in vue.js and Django",
+              "Prototype the app in Dash"
+            ],
+            "startDate": "2022-03-01"
+        },
+        {
+            "name": "Risk-Based Loan Pricing Engine",
+            "keywords": [
+                "Docker",
+                "R",
+                "Machine Learning",
+                "Customer Behavioural Modelling",
+                "Pricing Optimisation"
+            ],
+            "highlights": [
+              "End-to-end risk-based pricing engine using machine learning models, already in production. Estimated profit uplift of 40million for the organisation",
+              "Build and maintain production level machine learning models to cover the whole loan life cycle from quote, application, approval to settlement as well as the customer behavioural models e.g. early termination, write-off and loss given default",
+              "Develop and test the profit optimisation model",
+              "Monthly reporting dashboard on model performance and profit tracking"
+            ],
+            "startDate": "2019-09-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "OCR text extractor",
+            "keywords": [
+                "OCR",
+                "Yolov5",
+                "OpenCV",
+                "Databricks",
+                "Pytorch"
+            ],
+            "highlights": [
+              "Built in-house pdf extractor from scratch given the confidentiality and privacy concern of using external products. And the existing products in the market are not fit for purpose",
+              "Achieved more than 95% accuracy when extracting the desired items from pdf documents to excel, by applying an unique methodology (convert pdf to xml file first, then extract the info by Jqueries)",
+              "Testing a deep learning based approach  to further develop this tool into a more generalised product, by using transfer learning to fine-tune yolov5 and easyOCR models",
+              "Training and testing of deep learning models (Pytorch)",
+              "Setting up the model training/deployment pipeline on Azure Databricks"
+            ],
+            "startDate": "2021-01-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Customer Retention Model",
+            "keywords": [
+                "PowerBI",
+                "Python",
+                "Machine Learning",
+                "Customer Lifetime Value"
+            ],
+            "highlights": [
+              "Provide loan lifetime value (risk-based) prediction",
+              "Work with sales and marketing team to develop a customer ranking model to prioritise the retention activities",
+              "PowerBI dashboard for model monitoring , reporting and tracking the retention journey of customers"
+            ],
+            "startDate": "2020-05-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Phoenix (Salary Packaging Platform)",
+            "keywords": [
+                "R",
+                "SQL",
+                "Process Automation"
+            ],
+            "highlights": [
+              "Design an algorithm to automatically reconcile salary packaging platform data with more than 2 millions bank transactions  given there are no primary matching keys available",
+              "Successfully reduced manual reconciliation works by more than 80%",
+              "Support software development team on troubleshooting and debug"
+            ],
+            "startDate": "2020-12-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Customer Propensity Modelling",
+            "keywords": [
+                "Python",
+                "Machine Learning",
+                "Clustering"
+            ],
+            "highlights": [
+              "Use the data obtained by our marketing team from their Google Analytics platform to analyse the customers’ segment at the quote journey",
+              "Use decision tree method to separate the customer segment and provide insight to the marketing team about which type(s) of customers are more likely to get an online car loan quote and converge",
+              "Clustering analysis using PCA and K Mean and KNN"
+            ],
+            "startDate": "2021-06-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Sales Pipeline Forecast",
+            "keywords": [
+                "Time series forecast (Prophet)",
+                "Python",
+                "PowerBI",
+                "MLflow"
+            ],
+            "highlights": [
+              "Build time-series forecast for loan application and settlement volume each month, using Facebook Prophet machine learning model",
+              "Full MLOps development lifecycle on Azure Databricks (from data extraction, model training, backtesting/validation to scheduled production run all in one platform)",
+              "Significantly improved the forecast accuracy for the retail finance and work planning team",
+              "Productionised model results have been used to assist the work planning team for resourcing monthly loan application and  settlement works"
+            ],
+            "startDate": "2021-01-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Car Rental / Subscription Pricing Engine",
+            "keywords": [
+                "Web scraping",
+                "Python",
+                "Machine learning"
+            ],
+            "highlights": [
+              "Support the launch of newly created Toyota car rental/subscription service product - Kinto",
+              "Web scraping and dashboard for competitors’ price",
+              "Develop a pricing algorithm based on the duration, location and vehicle type"
+            ],
+            "startDate": "2021-03-01",
+            "endDate": "2021-09-01"
+        },
+        {
+            "name": "Prostate Cancer Assessment",
+            "keywords": [
+                "Computer Vision",
+                "Deep learning",
+                "EfficientNet",
+                "Tensorflow"
+            ],
+            "highlights": [
+              "Develop a deep learning computer vision model (using EfficientNet) to assess prostate cancer",
+              "The model can achieve a higher accuracy rate than human radiologists in the test data"
+            ],
+            "startDate": "2020-05-01",
+            "endDate": "2020-12-01"
+        },
+        {
+            "name": "Tweet Sentiment Analysis",
+            "keywords": [
+                "NLP",
+                "Python",
+                "Sentiment Analysis",
+                "Transformer models"
+            ],
+            "highlights": [
+              "Applied NLP attention mechanism to train a language model that can read tweets and classify if the tweet was the lead indicator of a natural disaster",
+              "Transfer learning of training the final layer of Bert (Bidirectional Encoder Representations from Transformers)model"
+            ],
+            "startDate": "2019-05-01",
+            "endDate": "2019-09-01"
         }
     ]
 }
