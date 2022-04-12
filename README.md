@@ -1,6 +1,7 @@
 # Slickoverflow Theme for Jsonresume 
 
-> A variation of jsonresume-theme-stackoverflow.
+> A variation of jsonresume-theme-stackoverflow. - I use this repo to generate my own resume :-) 
+html and pdf versions are both available upon request. I have put my raw Json file here. You can support the original author on Json Resume (https://jsonresume.org/) 
 
 ## Demo
 
