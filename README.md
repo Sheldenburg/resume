@@ -1,8 +1,25 @@
 # Slickoverflow Theme for Jsonresume 
 
 > A variation of jsonresume-theme-stackoverflow. - I use this repo to generate my own resume :-) 
-html and pdf versions are both available upon request. I have put my raw Json file here. You can support the original author on Json Resume (https://jsonresume.org/) 
+html and pdf versions are both available upon request. I have put my raw Json file here. This repo is forked from [jsonresume-theme-slickoverflow](https://github.com/adavila0703/jsonresume-theme-slickoverflow). Please visit the website if you need more information about [Json Resume](https://jsonresume.org/).
 
+Tip: the original repo will export resume in letter size. If you need A4 pdf, please add the code below in index.js.
+
+    module.exports = {
+	render: render,
+	pdfRenderOptions: {
+		format: 'A4',
+		// mediaType: 'print',
+		pdfViewport: { width: 1920, height: 1280 },
+		margin: {
+			top: '0.4in',
+			bottom: '0.4in',
+			left: '0.4in',
+			right: '0.4in',
+		},
+	},
+	};
+    
 ## Demo
 
 ![](resume.jpg)
@@ -171,5 +188,6 @@ resume export -f pdf -t .\\node_modules\\jsonresume-theme-slickoverflow\\ resume
 ```
 resume export -f pdf -t ./node_modules/jsonresume-theme-slickoverflow/ resume.pdf
 ```
+
 
 
