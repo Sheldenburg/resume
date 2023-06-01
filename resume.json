@@ -1,10 +1,10 @@
 {
     "basics": {
         "name": "Sheldon Lin",
-        "label": "Manager in Data&Analytics",
+        "label": "AI Integration Architect",
         "email": "example@hotmail.com",
         "phone": "04xxxxxxx",
-        "summary": "Sheldon is a tech team lead in data & analytics with various experience in finance, healthcare, retail and engineering. Sheldon has expertise in risk-based pricing optimisation, customer propensity and churn prediction, demand forecast, asset risk and allocation optimisation. Also, some hands-on experience on building deep learning applications including OCR text extractor, melanoma detector, sentiment analysis and root cause analysis via NLP. Sheldon enjoys the discussions with business owners, end users and senior management to work out the most suitable data architecture and solution for them. A good solution can be simple but also powerful and scalable!",
+        "summary": "Sheldon is a solution architect and tech lead specialising in AI and Machine Learning. He has gained full-stack skill set in data science, data engineering and MLOps through various projects. His recent focus is in Generative AI and Large Language Models and their end-to-end implementation in large enterprises.",
         "location": {
             "city": "Sydney",
             "region": "NSW",
@@ -19,17 +19,37 @@
             {
                 "network": "LinkedIn",
                 "username": "Sheldon",
-                "url": "https://www.linkedin.com/in/sheldon-lin-14b3a237/"
+                "url": "https://www.linkedin.com/in/sheldon-lin/"
+            },
+            {
+                "network": "Blogger",
+                "username": "Sheldon's Blog",
+                "url": "https://sheldonlin.com"
             }
         ]
     },
     "work": [
+        {
+            "name": "Optus",
+            "position": "AI Integration Architect",
+            "location": "Sydney, Australia",
+            "url": "https://www.optus.com.au/",
+            "startDate": "2022-08-01",
+            "summary": "Solution design and build for multiple AI initiatives",
+            "highlights": [
+                "Lead solution design and build for cloud-native system data hub on GCP",
+                "Voice chatbot using Google Dialogflow",
+                "Lead solution design and POC for multiple Generative AI initiatives",
+                "LLM pilot on internal knowledge base management"
+            ]
+        },
         {
             "name": "Capgemini Invent",
             "position": "Manager in Data&Analytics",
             "location": "Sydney, Australia",
             "url": "https://www.capgemini.com/service/invent/",
             "startDate": "2021-09-01",
+            "endDate":"2022-07-31",
             "summary": "Technical project lead in data science and data engineering",
             "highlights": [
                 "Leading a team of 5 data scientist and data engineers to deliver data projects for one of Australian big four banks",
@@ -128,7 +148,7 @@
                 "HTML",
                 "CSS",
                 "Javascript",
-                "Vue",
+                "Next.js",
                 "Django"
             ]
         },
@@ -148,14 +168,16 @@
                 "Azure",
                 "AWS",
                 "GCP",
-                "Github",
-                "Gitlab",
-                "Databricks"
+                "Terraform",
+                "Databricks",
+                "Bamboo"
             ]
         },
         {
             "name": "Machine Learning",
             "keywords": [
+                "Langchain",
+                "LLMs",
                 "Scikit-learn",
                 "Pytorch",
                 "Tensorflow",
@@ -174,6 +196,41 @@
     ],
     "projects": [
         {
+            "name": "Optus AI Lab",
+            "keywords": [
+                "Generative AI",
+                "LLMs",
+                "OpenAI"
+            ],
+            "highlights": [
+              "Solution architect for newly found Optus AI Lab",
+              "Lead solution design and POC for multiple Generative AI initiatives",
+              "POC for internal knowledge management system using LLMs"
+            ],
+            "roles": [
+                "Solution Architect/Tech Lead"
+            ],
+            "startDate": "2023-03-01"
+        },
+        {
+            "name": "System Data Hub",
+            "keywords": [
+                "GCP Dataflow",
+                "Apache Beam",
+                "Bigquery",
+                "Streaming Data Pipeline"
+            ],
+            "highlights": [
+              "Cloud-native streaming data pipeline on GCP for IT system data",
+              "Lead solution design and implementation",
+              "Provide source of truth for enterprise assets to enable IT as Business initiative"
+            ],
+            "roles": [
+                "Solution Architect/Tech Lead"
+            ],
+            "startDate": "2022-10-01"
+        },
+        {
             "name": "Control Testing Automation",
             "keywords": [
                 "REST API",
@@ -191,7 +248,8 @@
             "roles": [
                 "Team Lead"
             ],
-            "startDate": "2021-09-01"
+            "startDate": "2021-09-01",
+            "endDate": "2022-07-31"
         },
         {
             "name": "Efficient Frontier",
@@ -339,21 +397,6 @@
             ],
             "startDate": "2020-05-01",
             "endDate": "2020-12-01"
-        },
-        {
-            "name": "Tweet Sentiment Analysis",
-            "keywords": [
-                "NLP",
-                "Python",
-                "Sentiment Analysis",
-                "Transformer models"
-            ],
-            "highlights": [
-              "Applied NLP attention mechanism to train a language model that can read tweets and classify if the tweet was the lead indicator of a natural disaster",
-              "Transfer learning of training the final layer of Bert (Bidirectional Encoder Representations from Transformers)model"
-            ],
-            "startDate": "2019-05-01",
-            "endDate": "2019-09-01"
         }
     ]
 }

@@ -5,9 +5,9 @@
   "main": "index.js",
   "dependencies": {
     "handlebars": "^4.3.0",
+    "jsonresume-theme-slickoverflow": "^0.0.2",
     "moment": "^2.19.3"
   },
-  "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

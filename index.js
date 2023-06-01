@@ -45,7 +45,7 @@ module.exports = {
 	render: render,
 	pdfRenderOptions: {
 		format: 'A4',
-		// mediaType: 'print',
+		mediaType: 'print',
 		pdfViewport: { width: 1920, height: 1280 },
 		margin: {
 			top: '0.4in',
